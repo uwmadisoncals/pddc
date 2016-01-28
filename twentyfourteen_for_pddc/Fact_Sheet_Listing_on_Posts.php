@@ -24,7 +24,7 @@ wp_reset_query();
 
 get_posts( $args ); */
 
-query_posts(array('orderby' => 'title', 'cat' => 10, 'order' => 'ASC', 'showposts' => -1));
+query_posts(array('orderby' => 'title', 'cat' => 165, 'order' => 'ASC', 'showposts' => -1));
 
 get_header(); 
 
@@ -33,7 +33,7 @@ get_header();
 <div id="main-content" class="main-content">
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content" role="main" style="margin-left: 10px;">
 		
 <?php /* BEGIN - add custom code below */ ?>	
 
