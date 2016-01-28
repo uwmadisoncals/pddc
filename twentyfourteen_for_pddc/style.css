@@ -1,0 +1,136 @@
+/*
+Theme Name:     twentyfourteen child theme for PDDC
+Description:    Child theme for the twentyfourteen
+Author:         Dixie Lang
+Template:       twentyfourteen
+Version:        0.1.0
+*/
+
+@import url("../twentyfourteen/style.css");
+
+
+body {
+background-color: #679966 !important;
+}
+
+/* to center it */
+.site {
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.tdl_homepage_logo_wrap {
+padding-right: .5em;
+padding-bottom: .5em;
+}
+
+.site-title {
+background-image: url('custom_footers/images/uwcrest_web_sm_shado.png');
+background-repeat: no-repeat;
+padding-left: 65px;
+line-height: 75px;
+font-size: 1.75em;
+}
+
+#category-posts-3.widget h1 {
+font-size: 1.5em;
+text-transform: none;
+}
+
+
+#category-posts-3.widget a {
+font-size: 1.1em;
+}
+
+
+.entry-title {
+font-weight: bold;
+text-transform: none;
+}
+
+.site-description {
+color: white !important;
+font-size: 11px;
+margin-top: .25em;
+}
+
+.site-info {
+background-color: white;
+}
+
+.site-info a:link {
+color: black !important;
+text-decoration: underline;
+
+}
+
+.site-info a:visited {
+color: black !important;
+text-decoration: underline;
+
+}
+
+.site-info a:hover {
+color: black !important;
+text-decoration: underline;
+}
+
+.site-info a:active {
+color: black !important;
+text-decoration: underline;
+
+}
+
+.feedback-text {
+color: black !important;
+}
+
+.login-link {
+text-align: center;
+margin-top: .5em;
+}
+
+.login-link a {
+color: black;
+font-weight: bold;
+font-size: 85%;
+text-decoration: underline;
+}
+
+/* added 1-20-16 for Fact Sheet styling */
+
+
+img {
+// border: 1px solid #28361B !important;
+}
+
+.wp-caption {
+background-color: #D4E4C6;
+border: 1px solid #28361B;
+}
+
+.wp-caption-text {
+background-color: #D4E4C6;
+color: #28361B !important;
+font-family: Verdana, sans-serif !important;
+}
+
+.wp-caption a:focus img, .wp-caption a:active img, .wp-caption a:hover img {
+    background: #D4E4C6 none repeat scroll 0% 0% !important;
+    border-color: #D4E4C6 !important;
+}
+
+.wp-caption img {
+ border-color: #D4E4C6 !important;
+}
+
+.pest-alert {
+font-weight: bold;
+color: red;
+font-style: italic;
+font-size: 1.4em;
+}
+.field-labels {
+font-weight: bold;
+}
+
