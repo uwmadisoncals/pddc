@@ -57,6 +57,8 @@
 								$the_file_title = ($post->post_title);
 								$media_library_id = ($post->ID);
 								$my_post_mime_type = ($post->post_mime_type);
+								
+								/* use $blog_path function to accomodate server name changes */
 								$media_library_edit_string = echo $blog_path.'/wp-admin/media.php?attachment_id='.$media_library_id."&action=edit"; 
 								
 								/* display edit title link only if they're logged in and have security priv to work with the media library and upload files */
