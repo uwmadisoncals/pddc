@@ -57,8 +57,8 @@
 								$the_file_title = ($post->post_title);
 								$media_library_id = ($post->ID);
 								$my_post_mime_type = ($post->post_mime_type);
-								
-								$media_library_edit_string = echo $blog_path."/wp-admin/media.php?attachment_id=".$media_library_id."&action=edit"; 
+								echo "The current blog path is: ".$blog_path."<br />;
+								$media_library_edit_string = "http://pddc.triforce.cals.wisc.edu/wp-admin/media.php?attachment_id=".$media_library_id."&action=edit";
 								
 								/* display edit title link only if they're logged in and have security priv to work with the media library and upload files */
 								if (current_user_can('upload_files')) {
