@@ -29,7 +29,7 @@ get_header();
 </div>
 
 <div style="text-align: center;">
-<img src="http://labs.russell.wisc.edu/pddc/wp-content/themes/custom_footers/images/uwex-logo.png" alt="UWEX logo" style="padding-top: 1.25em; padding-bottom: .5em;">
+<img src="<?php echo $blog_path ?>/wp-content/themes/custom_footers/images/uwex-logo.png" alt="UWEX logo" style="padding-top: 1.25em; padding-bottom: .5em;">
 </div>
 
 <header class="entry-header">
@@ -78,8 +78,8 @@ echo $date->format('m/d/Y');
 <div>This Fact Sheet is also available in PDF format:</div>
 
 <ul>
-<li><a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a></li>
-<li><a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Low Color PDF</a></li>
+<li><a href="<?php echo $blog_path ?>/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a></li>
+<li><a href="<?php echo $blog_path ?>/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Low Color PDF</a></li>
 </ul>
 
 <hr />
