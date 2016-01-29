@@ -43,6 +43,8 @@ get_header();
 
 </header>
 
+<div class="entry-content">
+
 <?php
 // The Loop
 while ( have_posts() ) : the_post(); ?>
@@ -164,7 +166,7 @@ endwhile;
 wp_reset_query();
 
 ?>
-
+</div><!-- #entry-content -->
 </div><!-- #content -->
 </div><!-- #primary -->
 
