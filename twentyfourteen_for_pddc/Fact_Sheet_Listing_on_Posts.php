@@ -33,7 +33,7 @@ get_header();
 <div id="main-content" class="main-content">
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main" style="margin-left: 10px;">
+		<div id="content" class="site-content" role="main" style="margin-left: 250px; border: 1px solid green;">
 		
 <?php /* BEGIN - add custom code below */ ?>	
 
