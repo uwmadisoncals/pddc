@@ -33,7 +33,8 @@ get_header();
 <div id="main-content" class="main-content">
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main" style="margin-left: 250px; border: 1px solid green;">
+		<div id="content" class="site-content" role="main" style="">
+		<div class="entry-content">
 		
 <?php /* BEGIN - add custom code below */ ?>	
 
@@ -167,6 +168,7 @@ wp_reset_query();
 
 ?>
 <?php /* END - add custom code */ ?>
+		</div><!-- #entry-content -->
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
