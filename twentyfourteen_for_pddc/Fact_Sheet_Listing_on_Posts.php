@@ -173,10 +173,10 @@ wp_reset_query();
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	<?php 
-	/* get_sidebar( 'content' ); */
+	get_sidebar( 'content' ); 
 	?>
 </div><!-- #main-content -->
 
 <?php
-/* get_sidebar(); */
+ get_sidebar(); 
 get_footer();
