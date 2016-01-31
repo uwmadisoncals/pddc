@@ -18,9 +18,34 @@ get_header();
 
 ?>
 
-<div id="primary">
+<style>
 
-<!-- <div id="content" role="main"  style="padding-top: 1em;"> -->
+#secondary {
+    display: none !important;
+}
+
+.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content, .hentry, .entry-content {
+    max-width: 1260px !important;
+}
+
+#tablepress-1 {
+    width: 100% !important;
+}
+
+.site-content, .site-main .widecolumn {
+margin-left:0 !important;
+}
+
+.site-content {
+margin-right:0 !important;
+}
+
+.site:before {
+width:0px !important;
+}
+</style>
+
+<div id="primary" class="content-area">
 
 <div id="content" class="site-content" role="main">
 
@@ -143,8 +168,6 @@ echo $date->format('m/d/Y');
 <p>A complete inventory of University of Wisconsin Garden Facts is available at the University of Wisconsin-Extension Plant Disease Diagnostics Clinic website:  <a href="http://pddc.wisc.edu">http://pddc.wisc.edu</a>.</p>
 </div>
 
-
-
 </div> 
 
 <div style="text-align: center; margin-bottom: 2em;">
@@ -156,9 +179,6 @@ if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned
 } 
 ?>
 
-
-
-
 </div>
 
 <?php
@@ -169,9 +189,10 @@ endwhile;
 wp_reset_query();
 
 ?>
-</div><!-- #entry-content -->
+
 </div><!-- #content -->
 </div><!-- #primary -->
 
 <?php 
+get_sidebar();
 get_footer();
