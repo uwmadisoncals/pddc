@@ -28,10 +28,6 @@ get_header();
     max-width: 1260px !important;
 }
 
-#tablepress-1 {
-    width: 100% !important;
-}
-
 .site-content, .site-main .widecolumn {
 margin-left:0 !important;
 }
@@ -52,7 +48,7 @@ width:0px !important;
 
 <div style="background-color: #99CCFF; padding-top: .75em; padding-bottom: .5em; padding-left: .5em; padding-right: .5em;" >
 
-<div style="font-size: 1.5em; font-style: italic; color: black; text-align: center;">University of Wisconsin Garden Fact Sheets</div>
+	<div style="font-size: 1.5em; font-style: italic; color: black; text-align: center;">University of Wisconsin Garden Fact Sheets</div>
 
 </div>
 
@@ -62,16 +58,11 @@ width:0px !important;
 
 <header class="entry-header">
 
-<h1 style="color: #28361B;" class="entry-title"><?php the_title(); ?>
-
-
-</h1>
-
+<h1 style="color: #28361B;" class="entry-title"><?php the_title(); ?></h1>
 
 
 </header>
 
-<div class="entry-content">
 
 <?php
 // The Loop
