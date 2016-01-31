@@ -19,7 +19,10 @@ get_header();
 ?>
 
 <div id="primary">
-<div id="content" role="main"  style="padding-top: 1em;">
+
+<!-- <div id="content" role="main"  style="padding-top: 1em;"> -->
+
+<div id="content" class="site-content" role="main">
 
 
 <div style="background-color: #99CCFF; padding-top: .75em; padding-bottom: .5em; padding-left: .5em; padding-right: .5em;" >
