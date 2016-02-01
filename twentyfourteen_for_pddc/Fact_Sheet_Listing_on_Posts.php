@@ -145,7 +145,7 @@ while (have_posts()) : the_post();
 		
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; ?>
 	
-				<a href="<?php the_permalink(); ?> target="_blank">Web</a>				
+				<a href="<?php the_permalink(); ?>" target="_blank">Web</a>				
 				<?php ;  
 	
 		echo "</td>";			
