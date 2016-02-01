@@ -41,6 +41,12 @@ width:0px !important;
 }
 </style>
 
+<!-- Display logo(s) -->
+<?php 
+$LogoPath = get_bloginfo('stylesheet_directory') .'/custom_footers/images/'; 
+$UWEX_Logo = 'uwex-logo.png';			
+?>	
+
 <div id="primary" class="content-area">
 
 <div id="content" class="site-content" role="main">
@@ -51,7 +57,7 @@ width:0px !important;
 </div>
 
 <div style="text-align: center;">
-	<img src="<?php echo $blog_path ?>/wp-content/themes/custom_footers/images/uwex-logo.png" alt="UWEX logo" style="padding-top: 1.25em; padding-bottom: .5em;">
+	<img src="<?php echo $LogoPath.$UWEX_Logo; ?>" alt="UWEX Logo" style="padding-top: 1.25em; padding-bottom: .5em;">
 </div>
 
 <header class="entry-header">
