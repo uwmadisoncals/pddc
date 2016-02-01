@@ -7,10 +7,6 @@ If you would like to print the PDF version of the fact sheets on this page, inst
 </p>
 
 <p style="margin-bottom: .5em;">
-If you would like a copy of a fact sheet in Word format, please email <a href="mailto:hudelson@wisc.edu">Brian Hudelson</a>.
-</p>
-
-<p style="margin-bottom: .5em;">
 To save the fact sheets to your computer, right-click the PDF link and choose Save Link As or Save Target As from the popup menu.<br/>
 </p>
 You can download Adobe Reader from Adobe's site - <a href="http://get.adobe.com/reader/">http://get.adobe.com/reader/</a> - make sure you uncheck "Yes, install McAfee Security Scan Plus - optional" before you click the Download now button.
