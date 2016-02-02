@@ -33,7 +33,8 @@ get_header(); ?>
 					<p style="margin-bottom: .5em;">
 					To save the fact sheets to your computer, right-click the PDF link and choose Save Link As or Save Target As from the popup menu.<br/>
 					</p>
-					You can download Adobe Reader from Adobe's site - <a href="http://get.adobe.com/reader/">http://get.adobe.com/reader/</a> - make sure you uncheck "Yes, install McAfee Security Scan Plus - optional" before you click the Download now button.
+					<p>You can download Adobe Reader from Adobe&rdquo;s site - <a href="http://get.adobe.com/reader/">http://get.adobe.com/reader/</a> - make sure you uncheck "Yes, install McAfee Security Scan Plus - optional" before you click the Download now button.
+					</p>
 
 					</div> 
 				<br />						
