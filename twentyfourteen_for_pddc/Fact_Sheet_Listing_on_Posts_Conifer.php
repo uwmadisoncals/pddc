@@ -45,9 +45,6 @@ echo '<p>There are '.$num_of_records_returned.' Fact Sheet(s): </p>';
 
 if (have_posts()) :
 
-<div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Fact Sheet Listing - Diseases - Conifer - New Text is <?php echo $category; ?></div>	
-
-
 echo '<table style="border: 1px solid #2b552b;" cellspacing="0" cellpadding="4" align="left" width="">';
 		echo "<tr bgcolor='#B2B998'>";
 		echo "<th style='font-weight: bold; border: 1px solid black; padding: .5em; '>&nbsp;</th>";
