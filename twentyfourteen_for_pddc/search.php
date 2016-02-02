@@ -20,25 +20,27 @@ get_header(); ?>
 
 				<?php
 					// Start the Loop.
-					while ( have_posts() ) : the_post(); ?>
-
+					while ( have_posts() ) : the_post();
+					
+					?>
+					
 					<br />
 					<div style="margin-left: auto; margin-right: auto; border: 1px dotted #2b552b; padding: 10px;">
 
-					<strong>Attention Firefox users:</strong><br/>
+						<strong>Attention Firefox users:</strong><br/>
 
-					<p style="margin-bottom: .5em;">
-					If you would like to print the PDF version of the fact sheets on this page, instead of clicking the PDF links below to open them on the webserver, save the fact sheets to your computer, then use Adobe Reader to open them.<br />
-					</p>
-					<p style="margin-bottom: .5em;">
-					To save the fact sheets to your computer, right-click the PDF link and choose Save Link As or Save Target As from the popup menu.<br/>
-					</p>
-					<p>You can download Adobe Reader from Adobe&rdquo;s site - <a href="http://get.adobe.com/reader/">http://get.adobe.com/reader/</a> - make sure you uncheck "Yes, install McAfee Security Scan Plus - optional" before you click the Download now button.
-					</p>
+						<p style="margin-bottom: .5em;">
+						If you would like to print the PDF version of the fact sheets on this page, instead of clicking the PDF links below to open them on the webserver, save the fact sheets to your computer, then use Adobe Reader to open them.<br />
+						</p>
+						<p style="margin-bottom: .5em;">
+						To save the fact sheets to your computer, right-click the PDF link and choose Save Link As or Save Target As from the popup menu.<br/>
+						</p>
+						<p>You can download Adobe Reader from Adobe&rdquo;s site - <a href="http://get.adobe.com/reader/">http://get.adobe.com/reader/</a> - make sure you uncheck "Yes, install McAfee Security Scan Plus - optional" before you click the Download now button.
+						</p>
 
 					</div> 
-				<br />						
-				<?php
+				<br />		
+						<?php
 						/*
 						 * Include the post format-specific template for the content. If you want to
 						 * use this in a child theme, then include a file called called content-___.php
