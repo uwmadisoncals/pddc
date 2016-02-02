@@ -32,7 +32,7 @@ get_header();
 <?php include 'includes/AcrobatNotice.php'; ?> 
 
 <br />
-<div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Fact Sheet Listing - <?php echo $wp_query->category_description( $category_id ); ?></div>	
+<div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Fact Sheet Listing - Diseases - Conifer</div>	
 
 <?php
 
