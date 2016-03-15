@@ -29,19 +29,11 @@ get_header();
 		
 <?php /* BEGIN - add custom code below */ ?>	
 
-<?php include 'includes/AcrobatNotice.php'; ?> 
-
 <br />
 <div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Wisconsin Hort Update Archive</div>	
 
 <?php
 
-/* Count the number of records returned by the query for display in the search results header */
-$num_of_records_returned = $wp_query->post_count; 
-echo '<p>There are '.$num_of_records_returned.' Archive File(s): </p>';
-
-
-/* border color was B2B998 for rows, 28361b for the overall table */
 
 if (have_posts()) :
 
@@ -52,7 +44,7 @@ if (have_posts()) :
 	
 while (have_posts()) : the_post();
 
-	echo '<li>';
+	echo '<li>'; ?>
 	
 	<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 		
@@ -60,13 +52,11 @@ while (have_posts()) : the_post();
 		echo '</li>'; // end display of the PDF link	
 		}echo '<ol>'; // end the unordered list
 	} 
-	?>		
+			
 		endwhile;
 
 
 		endif; 
-
-
 
 
 echo "<p>&nbsp;</p>";
