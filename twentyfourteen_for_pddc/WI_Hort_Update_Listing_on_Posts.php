@@ -32,41 +32,7 @@ get_header();
 <br />
 <div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Wisconsin Hort Update Archive</div>	
 
-<?php
 
-
-if (have_posts()) :
-
-	/* Begin the unordered list */	
-	echo '<ol>'; // begin the unordered list
-
-	// The Loop
-	
-while (have_posts()) : the_post();
-
-	echo '<li>'; ?>
-	
-	<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-		
-	<?php	
-		echo '</li>'; // end display of the PDF link	
-		}echo '<ol>'; // end the unordered list
-	} 
-			
-		endwhile;
-
-
-		endif; 
-
-
-echo "<p>&nbsp;</p>";
-
-echo "<p>&nbsp;</p>";
-
-// Reset Query
-wp_reset_query();
-
-?>
 <?php /* END - add custom code */ ?>
 		</div><!-- #entry-content -->
 
