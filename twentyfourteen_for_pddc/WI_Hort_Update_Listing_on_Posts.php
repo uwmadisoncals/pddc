@@ -30,7 +30,7 @@ get_header();
 <?php /* BEGIN - add custom code below */ ?>	
 
 <br />
-<div style="font-size: 24px; font-family: Verdana; font-weight: bold; margin-bottom: 2em;">Wisconsin Hort Update Archive</div>	
+<div style="font-size: 24px; font-family: Verdana; font-weight: bold; margin-bottom: .6em;">Wisconsin Hort Update Archive</div>	
 
 <?php
 
