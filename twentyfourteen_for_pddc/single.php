@@ -9,7 +9,11 @@ get_header();
 include(STYLESHEETPATH . '/single-fact-sheet.php'); 
 
 } 
-
+elseif (in_category('wi-hort-update-archive') ) {
+include(STYLESHEETPATH . '/single-wi-hort-update.php'); 
+	
+	
+}
 
 else {
 		
