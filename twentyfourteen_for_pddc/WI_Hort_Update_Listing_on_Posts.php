@@ -15,7 +15,7 @@ error_reporting(E_ALL|E_STRICT);
 // Reset Query
 wp_reset_query();
 
-query_posts(array('orderby' => 'title', 'cat' => 184, 'order' => 'ASC', 'showposts' => -1));
+query_posts(array('orderby' => 'date', 'cat' => 184, 'order' => 'DESC', 'showposts' => -1));
 
 get_header(); 
 
@@ -30,7 +30,7 @@ get_header();
 <?php /* BEGIN - add custom code below */ ?>	
 
 <br />
-<div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Wisconsin Hort Update Archive</div>	
+<div style="font-size: 24px; font-family: Verdana; font-weight: bold; margin-bottom: 2em;">Wisconsin Hort Update Archive</div>	
 
 <?php
 
@@ -41,7 +41,7 @@ get_header();
 	if (have_posts()) :	
 		
 	/* Begin the unordered list */	
-	echo '<ol>'; // begin the unordered list	
+	echo '<ul>'; // begin the unordered list	
 
 		while (have_posts()) : the_post(); ?>
 		
@@ -54,13 +54,10 @@ get_header();
 
 		endif; 		
 		
-		echo '</ol>';
+		echo '</ul>';
 		
 		?>
 		
-
-	
-?>	
 
 
 <?php /* END - add custom code */ ?>
