@@ -99,17 +99,6 @@ while ( have_posts() ) : the_post(); ?>
 
 </div> <!-- end entry content div -->
 
-<div style="text-align: center; margin-bottom: 2em;">
-
-<?php 
-
-	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-	 the_post_thumbnail(array(400,400));
-	} 
-	?>
-
-</div><!-- end post thumbnail div -->
-
 <?php
 
 endwhile;
