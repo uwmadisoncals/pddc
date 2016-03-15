@@ -67,7 +67,7 @@ $UWEX_Logo = 'uwex-logo.png';
 <?php 
 
 	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-	 the_post_thumbnail(array(400,400));
+	 ?> <span style="margin-left: 2em;"><?php the_post_thumbnail(array(400,400)); ?></span><?php
 	} 
 	?>
 
