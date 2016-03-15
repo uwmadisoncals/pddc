@@ -32,6 +32,15 @@ get_header();
 <br />
 <div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Wisconsin Hort Update Archive</div>	
 
+<?php
+
+/* Count the number of records returned by the query for display in the search results header */
+$num_of_records_returned = $wp_query->post_count; 
+echo '<p>There are '.$num_of_records_returned.' Fact Sheet(s): </p>';
+	
+	
+?>	
+
 
 <?php /* END - add custom code */ ?>
 		</div><!-- #entry-content -->
