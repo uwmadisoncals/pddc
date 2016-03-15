@@ -35,8 +35,8 @@ get_header();
 <?php
 
 /* Count the number of records returned by the query for display in the search results header */
-//$num_of_records_returned = $wp_query->post_count; 
-//echo '<p>There are '.$num_of_records_returned.' Wisconsin Hort Update Archive Record(s): </p>';
+$num_of_records_returned = $wp_query->post_count; 
+echo '<p>There are '.$num_of_records_returned.' Wisconsin Hort Update Archive Record(s): </p>';
 	
 	if (have_posts()) :	
 		

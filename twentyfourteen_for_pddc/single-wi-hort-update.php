@@ -64,6 +64,12 @@ $UWEX_Logo = 'uwex-logo.png';
 	<h1 style="color: #28361B;" class="entry-title"><?php the_title(); ?></h1>
 </header>
 
+<?php 
+
+	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+	 the_post_thumbnail(array(400,400));
+	} 
+	?>
 
 <?php
 // The Loop
