@@ -108,10 +108,10 @@ while ( have_posts() ) : the_post(); ?>
 
 <ul>
 	<li>
-		<a href="<?php echo $blog_path ?>/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a>
 	</li>
 	<li>
-		<a href="<?php echo $blog_path ?>/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Low Color PDF</a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Low Color PDF</a>
 	</li>
 </ul>
 
