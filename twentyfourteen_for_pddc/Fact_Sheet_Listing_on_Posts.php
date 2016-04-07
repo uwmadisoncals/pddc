@@ -15,15 +15,6 @@ error_reporting(E_ALL|E_STRICT);
 // Reset Query
 wp_reset_query();
 
-// The Query
-
-/* $args = array(
-	'cat' => 10,
-	'posts_per_page' => -1
-); 
-
-get_posts( $args ); */
-
 query_posts(array('orderby' => 'title', 'cat' => 165, 'order' => 'ASC', 'showposts' => -1));
 
 get_header(); 
@@ -48,6 +39,12 @@ get_header();
 /* Count the number of records returned by the query for display in the search results header */
 $num_of_records_returned = $wp_query->post_count; 
 echo '<p>There are '.$num_of_records_returned.' Fact Sheet(s): </p>';
+
+<?php 
+
+$pddc_site_home_url = esc_url( home_url( '/' ) );
+
+echo <p>'the path is - '.$pddc_site_home_url; </p> ?>
 
 
 /* border color was B2B998 for rows, 28361b for the overall table */
@@ -112,7 +109,7 @@ while (have_posts()) : the_post();
 
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>";
 		
-		?><br /><?php echo 'blog path is - '.get_blog_details( $blogId )->path; ?><br />
+		?><br />
 		<a href="<?php echo $blog_path ?>/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a><br />
 		
 		<a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">PDF</a><?php
