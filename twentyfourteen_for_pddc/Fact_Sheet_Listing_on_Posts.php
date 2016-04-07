@@ -42,7 +42,7 @@ echo '<p>There are '.$num_of_records_returned.' Fact Sheet(s): </p>';
 
 <?php 
 
-echo <p>'the path is - '.echo esc_url( home_url( '/' ) ).'</p>' ?>
+echo '<p>The path is - '.esc_url( home_url( '/' ) ).'</p>' ?>
 
 
 /* border color was B2B998 for rows, 28361b for the overall table */
