@@ -49,7 +49,7 @@ get_header();
 $num_of_records_returned = $wp_query->post_count; 
 echo '<p>There are '.$num_of_records_returned.' Fact Sheet(s): </p>';
 
-echo '<p>The path is - '.esc_url( home_url( '/' ) ).'</p>' 
+echo esc_url( home_url( '/' ) ); 
 
 
 /* border color was B2B998 for rows, 28361b for the overall table */
