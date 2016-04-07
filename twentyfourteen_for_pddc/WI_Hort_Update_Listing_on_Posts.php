@@ -46,7 +46,7 @@ echo '<p>There are '.$num_of_records_returned.' Wisconsin Hort Update Archive Re
 		while (have_posts()) : the_post(); ?>
 		
 		<?php echo '<li>';	?>
-		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" target="_blank"><?php the_title(); ?></a>
 		
 		<?php echo '</li>'; 
 		
