@@ -114,7 +114,7 @@ while (have_posts()) : the_post();
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>";
 		
 		?>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">Full Color PDF</a><?php
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/FC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">PDF</a><?php
 		
 		echo "</td>";
 
@@ -122,8 +122,7 @@ while (have_posts()) : the_post();
 				
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; ?>
 
-		
-		<a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/FC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">Word</a><?php
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/FC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">FC Word</a><?php
 		
 		echo "</td>";
 		
@@ -132,7 +131,7 @@ while (have_posts()) : the_post();
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>";
 		
 		?>
-		<a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">PDF</a><?php
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/LC_PDF/<?php printf( get_field('fact_sheet_filename_stem')) ?>.pdf" target="_blank">LC PDF</a><?php
 		
 		echo "</td>";
 
@@ -140,7 +139,7 @@ while (have_posts()) : the_post();
 		
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; ?>
 		
-		<a href="http://labs.russell.wisc.edu/pddc/files/Fact_Sheets/LC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">Word</a><?php
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/blogs.dir/39/files/Fact_Sheets/FC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">LC Word</a><?php
 		
 		echo "</td>";
 		
