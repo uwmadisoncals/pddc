@@ -92,7 +92,7 @@ while (have_posts()) : the_post();
 		
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; ?>
 		
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/blogs.dir/39/files/Fact_Sheets/FC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">Word</a><?php
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/blogs.dir/39/files/Fact_Sheets/LC_Word/<?php printf( get_field('fact_sheet_filename_stem')) ?>.doc" target="_blank">Word</a><?php
 		
 		echo "</td>";
 		
