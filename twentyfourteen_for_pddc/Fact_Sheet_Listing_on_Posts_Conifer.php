@@ -36,9 +36,9 @@ get_header();
 
 <?php include 'includes/FactSheetDisplayCode.php'; ?>
 
+<?php 
 // Reset Query
 wp_reset_query();
-
 ?>
 <?php /* END - add custom code */ ?>
 		</div><!-- #entry-content -->
