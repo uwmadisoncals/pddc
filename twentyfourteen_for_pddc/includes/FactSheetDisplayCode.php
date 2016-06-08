@@ -20,16 +20,6 @@ echo '<table style="border: 1px solid #2b552b;" cellspacing="0" cellpadding="4" 
 echo "</tr>";
 
 		echo "<tr bgcolor='#B2B998'>";
-
-		$thispost = $post->ID;
-		$fact_sheet_direct_edit_string = $blog_path."/wp-admin/post.php?post=".$thispost."&action=edit";
-
-			/* display edit fact sheet link only if they're logged in and have security priv to work with the media library and upload files */
-			if (current_user_can('upload_files')) {
-				?><a href="<?php echo $fact_sheet_direct_edit_string ?>" target="_blank">Edit Fact Sheet</a>&nbsp;&nbsp; 
-				;
-				}  
-
 		echo "<th style='font-weight: bold; border: 1px solid black; padding: .5em; '>Fact Sheet</th>";
 		echo "<th style='font-weight: bold; border: 1px solid black; padding: .5em;'>X-Number</th>";	
 		echo "<th style='font-weight: bold; border: 1px solid black; padding: .5em; text-align: center;'>PDF</th>";
@@ -59,6 +49,15 @@ while (have_posts()) : the_post();
 			
 			
 		echo "<td style='border: 1px solid #28361b; padding-left: .2em;'>";
+		
+				$thispost = $post->ID;
+		$fact_sheet_direct_edit_string = $blog_path."/wp-admin/post.php?post=".$thispost."&action=edit";
+
+			/* display edit fact sheet link only if they're logged in and have security priv to work with the media library and upload files */
+			if (current_user_can('upload_files')) {
+				?><a href="<?php echo $fact_sheet_direct_edit_string ?>" target="_blank">Edit Fact Sheet</a>&nbsp;&nbsp; 
+				;
+				}  		
 		
 		the_title();
 
