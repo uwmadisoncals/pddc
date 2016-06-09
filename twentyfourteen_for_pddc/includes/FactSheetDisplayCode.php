@@ -50,9 +50,6 @@ while (have_posts()) : the_post();
 			
 		echo "<td style='border: 1px solid #28361b; padding-left: .2em;'>";
 		
-		$thispost = $post->ID;
-		$fact_sheet_direct_edit_string = $blog_path."/wp-admin/post.php?post=".$thispost."&action=edit";
-
 		the_title();
 
 		echo "</td>";
