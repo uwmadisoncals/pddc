@@ -53,14 +53,7 @@ while (have_posts()) : the_post();
 		$thispost = $post->ID;
 		$fact_sheet_direct_edit_string = $blog_path."/wp-admin/post.php?post=".$thispost."&action=edit";
 
-			/* display edit fact sheet link only if they're logged in and have security priv to work with the media library and upload files */
-			if (current_user_can('upload_files')) {
-				?><a href="<?php echo $fact_sheet_direct_edit_string ?>" target="_blank">Edit Fact Sheet</a>&nbsp;&nbsp; - <? 
-				;
-				}  		
-		
 		the_title();
-		echo "test";
 
 		echo "</td>";
 		
