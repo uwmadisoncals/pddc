@@ -107,6 +107,7 @@ img {
 .wp-caption {
 background-color: #D4E4C6;
 border: 1px solid #28361B;
+padding: .2em;
 }
 
 .wp-caption-text {
