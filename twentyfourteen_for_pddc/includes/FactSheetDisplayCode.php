@@ -98,7 +98,19 @@ while (have_posts()) : the_post();
 		
 		
 		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; 
-			     edit_post_link('edit', '<p>', '</p>');?>
+			    
+				/* display edit fact sheet link only if they're logged in and have security priv to work with the media library and upload files */
+				if (current_user_can('upload_files')) 
+				{
+				
+					edit_post_link('edit', '&nbsp;', '&nbsp;');
+				
+				}
+				
+				?>
+				
+				
+				
 				<a href="<?php the_permalink(); ?>" target="_blank">Web</a>				
 				<?php ;  
 	
