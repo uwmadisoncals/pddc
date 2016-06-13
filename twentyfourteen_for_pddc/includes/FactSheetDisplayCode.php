@@ -97,8 +97,8 @@ while (have_posts()) : the_post();
 		echo "</td>";
 		
 		
-		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; ?>
-	
+		echo "<td style='text-align: center; border: 1px solid #28361b;'>"; 
+			     edit_post_link('edit', '<p>', '</p>');?>
 				<a href="<?php the_permalink(); ?>" target="_blank">Web</a>				
 				<?php ;  
 	
