@@ -12,11 +12,6 @@
 ini_set('display_errors',1);
 error_reporting(E_ALL|E_STRICT); 
 
-// Reset Query
-wp_reset_query();
-
-query_posts(array('orderby' => 'title', 'cat' => 165, 'order' => 'ASC', 'showposts' => -1));
-
 get_header(); 
 
 ?>
