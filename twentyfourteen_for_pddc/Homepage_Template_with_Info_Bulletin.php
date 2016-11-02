@@ -20,16 +20,14 @@ get_header();
 
 	<div id="primary" class="content-area">
 
-
-<?php 
-	/* display the contents of the info bulletin widget area */
-	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('info_bulletin_area') ) : 
-
-	endif; ?>	
 	
 		<div id="content" class="site-content" role="main" style="">
 		<div class="entry-content">
-		
+<?php 
+	/* display the contents of the info bulletin widget area */
+	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('info_bulletin_area') ) : 
+	endif; 
+?>			
 		
 		<!-- insert loop here - begin -->
 		
