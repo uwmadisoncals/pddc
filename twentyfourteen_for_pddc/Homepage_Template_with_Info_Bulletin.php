@@ -19,12 +19,15 @@ get_header();
 <div id="main-content" class="main-content">
 
 <?php 
+
+
+	<div id="primary" class="content-area">
+	
 	/* display the contents of the info bulletin widget area */
 	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('info_bulletin_area') ) : 
 
-endif; ?>
-
-	<div id="primary" class="content-area">
+	endif; ?>	
+	
 		<div id="content" class="site-content" role="main" style="">
 		<div class="entry-content">
 		
