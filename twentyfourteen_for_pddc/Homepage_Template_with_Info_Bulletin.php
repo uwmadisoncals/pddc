@@ -24,9 +24,8 @@ get_header();
 		<div id="content" class="site-content" role="main" style="">
 		<div class="entry-content">
 <?php 
-	/* display the contents of the info bulletin widget area */
-	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('info_bulletin_area') ) : 
-	endif; 
+	/* display the contents of the info bulletin field */
+	printf( get_field('info_bulletin')); 
 ?>			
 		
 		<!-- insert loop here - begin -->
