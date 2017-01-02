@@ -37,7 +37,7 @@
     ORDER BY $wpdb->posts.post_title ASC ";
 
 
-					$attachments = $wpdb->get_results($querystr, OBJECT) or die('Query failed: ' . mysql_error());;
+					$attachments = $wpdb->get_results($querystr, OBJECT) or die('Query failed: ' . mysql_error());
 					
 					/* $attachments = $wpdb->get_results($sql) or die('Query failed: ' . mysql_error()); */
 
