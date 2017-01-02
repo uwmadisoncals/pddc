@@ -29,7 +29,7 @@
 					<?php
 
  $querystr = "
-    SELECT $wpdb->posts.*, $wpdb->postmeta.* 
+    SELECT DISTINCT $wpdb->posts.*, $wpdb->postmeta.* 
     FROM $wpdb->posts, $wpdb->postmeta
     WHERE $wpdb->posts.ID = $wpdb->postmeta.post_id 
 	AND $wpdb->postmeta.meta_key = 'pddc_archived_handouts' 
