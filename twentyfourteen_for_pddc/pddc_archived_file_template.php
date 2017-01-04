@@ -39,6 +39,10 @@
 
 					$attachments = $wpdb->get_results($querystr, OBJECT) or die('Query failed: ' . mysql_error());
 					
+					var_dump($attachments);
+					
+					?> <hr /><?php 
+					
 					/* $attachments = $wpdb->get_results($sql) or die('Query failed: ' . mysql_error()); */
 
 
