@@ -41,7 +41,7 @@
 					
 					var_dump($attachments);
 					
-					?> <hr /><?php 
+					?> did this work<hr /><?php 
 					
 					/* $attachments = $wpdb->get_results($sql) or die('Query failed: ' . mysql_error()); */
 
