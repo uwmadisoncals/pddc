@@ -52,6 +52,7 @@ margin-left: 20px;
 margin-top: 0px;
 padding-top: 0px;
 border: 1px solid blue;
+vertical-align: none;
 }
 .text-widget .widget ul {
 list-style: disc;
