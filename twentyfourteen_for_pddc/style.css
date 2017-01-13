@@ -32,6 +32,7 @@ line-height: 75px;
 font-size: 1.75em;
 }
 
+/*
 #category-posts-3.widget h1 {
 font-size: 1.5em;
 text-transform: none;
@@ -42,6 +43,17 @@ text-transform: none;
 font-size: 1.1em;
 }
 
+*/
+/* added 1/13/2017 */
+#category-posts-3.widget ul li .cat-post-item {
+list-style-type: square;
+border-botton: none;
+
+}
+/* added 1/13/2017 */
+.widget-title {
+text-transform: none !important;
+}
 
 .entry-title {
 font-weight: bold;
@@ -135,8 +147,7 @@ font-size: 1.4em;
 font-weight: bold;
 }
 
-.widget-title {
-text-transform: none;
-}
+
+
 
 
