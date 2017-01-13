@@ -45,8 +45,10 @@ font-size: 1.1em;
 
 */
 /* added 1/13/2017 */
+
+
 #category-posts-3.widget ul .cat-post-item {
-list-style-type: square;
+list-style-type: none;
 border-bottom: none;
 margin-left: 20px;
 margin-top: 0px;
@@ -54,6 +56,9 @@ padding-top: 0px;
 border: 1px solid blue;
 vertical-align: none;
 }
+
+
+
 .text-widget .widget ul {
 list-style: disc;
 margin-left: 20px;
