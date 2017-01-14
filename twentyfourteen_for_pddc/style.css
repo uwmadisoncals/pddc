@@ -55,7 +55,7 @@ margin-bottom: 20px;
 border-bottom: none;
 margin-left: 0px;
 }
-.cat-post-item {
+.cat-post-item  li{
 margin-top: 0px;
 padding-top: 0px;
 font-size: .9em;
