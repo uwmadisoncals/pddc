@@ -47,22 +47,21 @@ font-size: 1.1em;
 /* added 1/13/2017 */
 
 
+.widget {
+margin-bottom: 20px;
+}
+
 #category-posts-3.widget ul .cat-post-item {
-list-style-type: none;
 border-bottom: none;
-margin-left: 20px;
+margin-left: 0px;
+}
+.cat-post-item {
 margin-top: 0px;
 padding-top: 0px;
-border: 1px solid blue;
-vertical-align: none;
+font-size: .9em;
 }
 
 
-
-.text-widget .widget ul {
-list-style: disc;
-margin-left: 20px;
-}
 
 
 /* added 1/13/2017 */
