@@ -61,8 +61,15 @@ color: black; /* added 1.25.2017 */
 .widget-title {
 text-transform: none !important;
 border-top: 1px solid !important; /* added 1.25.2017 */
-font-size: 18px;
+font-size: large;
 line-height: 1.4;
+}
+
+/* added 1.25.2017 */
+#category-posts-3  li.cat.post.item {
+border-bottom: none;
+padding-bottom: 0;
+margin-bottom: 0;
 }
 
 /* bring up bottom of widget */
