@@ -14,7 +14,7 @@ body {
 border: 1px solid black !important ; /* added 1.25.2017 */
 }
 
-/* 1.25.2017 */
+/* 1.25.2017 
 .site-header {
 background-color: white;
 color: black;
@@ -22,18 +22,18 @@ color: black;
 
 .site-title {
 color: black;
-}
+}*/
 
-/* 1.24.2017 */
+/* 1.24.2017 
 .content-sidebar {
 color: black;
-}
+}*/
 
-/* added 1.25.2017 */
+/* added 1.25.2017 
 #secondary {
 background-color: white;
 color: black;
-}
+}*/
 
 /* to center it */
 .site {
@@ -53,20 +53,6 @@ padding-left: 65px;
 line-height: 75px;
 font-size: 1.75em;
 }
-
-/*
-#category-posts-3.widget h1 {
-font-size: 1.5em;
-text-transform: none;
-}
-
-
-#category-posts-3.widget a {
-font-size: 1.1em;
-}
-
-*/
-/* added 1/13/2017 */
 
 
 .widget {
