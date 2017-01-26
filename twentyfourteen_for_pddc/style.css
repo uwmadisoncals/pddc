@@ -22,6 +22,7 @@ body {
 
 #page {
 border: 1px solid black !important ; /* added 1.25.2017 */
+padding-top: 5px;  /* added 1.26.2017 */
 }
 
 /* masthead */
