@@ -54,10 +54,14 @@ line-height: 75px;
 font-size: 1.75em;
 }
 
+#secondary .widget {
+border-top: 1px solid black; /* added 1.25.2017 */
+}
+
+
 
 .widget {
 margin-bottom: 20px;
-border-top: 1px solid black; /* added 1.25.2017 */
 }
 
 #category-posts-3.widget ul .cat-post-item {
