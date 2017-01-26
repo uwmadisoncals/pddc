@@ -24,6 +24,11 @@ h1 site-title {
 color: black;
 }
 
+/* 1.24.2017 */
+.content-sidebar {
+color: black;
+}
+
 /* added 1.25.2017 */
 #secondary {
 background-color: white;
