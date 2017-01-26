@@ -9,37 +9,19 @@ Version:        0.1.0
 @import url("../twentyfourteen/style.css");
 
 
+/* to center layout */
+.site {
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
 body {
 /* background-color: #679966 !important; commented out 1.25.2017 */
 border: 1px solid black !important ; /* added 1.25.2017 */
 }
 
-/* 1.25.2017 
-.site-header {
-background-color: white;
-color: black;
-}
-
-.site-title {
-color: black;
-}*/
-
-/* 1.24.2017 
-.content-sidebar {
-color: black;
-}*/
-
-/* added 1.25.2017 
-#secondary {
-background-color: white;
-color: black;
-}*/
-
-/* to center it */
-.site {
-	margin-right: auto;
-	margin-left:auto;
-}
+/* masthead */
 
 .tdl_homepage_logo_wrap {
 padding-right: .5em;
@@ -54,40 +36,6 @@ line-height: 75px;
 font-size: 1.75em;
 }
 
-#secondary .widget {
-border-top: 1px solid black; /* added 1.25.2017 */
-}
-
-
-
-.widget {
-margin-bottom: 20px;
-}
-
-#category-posts-3.widget ul .cat-post-item {
-border-bottom: none;
-margin-left: 0px;
-}
-.cat-post-title{
-font-size: .9em;
-}
-
-.cat-post-item {
-margin-top: 0px;
-margin-bottom: 0px;
-padding-top: 0px;
-padding-bottom: 0px;
-
-}
-
-
-
-
-/* added 1/13/2017 */
-.widget-title {
-text-transform: none !important;
-}
-
 .entry-title {
 font-weight: bold;
 text-transform: none;
@@ -95,11 +43,12 @@ text-transform: none;
 
 .site-description {
 /* color: white !important; commented out 1.25.2017 */
-color: blackl
+color: black;
 font-size: 11px;
 margin-top: .25em;
 }
 
+/* footer - copyright and other info */
 .site-info {
 background-color: white;
 }
@@ -145,7 +94,7 @@ text-decoration: underline;
 
 /* added 1-20-16 for Fact Sheet styling */
 
-
+/* images */
 img {
 // border: 1px solid #28361B !important;
 }
@@ -170,6 +119,8 @@ font-family: Verdana, sans-serif !important;
 .wp-caption img {
  border-color: #D4E4C6 !important;
 }
+
+/* fact sheets */
 
 .pest-alert {
 font-weight: bold;
