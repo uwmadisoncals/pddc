@@ -57,7 +57,7 @@ margin-top: .25em;
 color: black; /* added 1.25.2017 */
 }
 
-#content-sidebar widget {
+.widget .cat-post-widget {
 border: 1px solid black; /* added 1.25.2017 */
 }
 
