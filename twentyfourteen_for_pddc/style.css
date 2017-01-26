@@ -14,8 +14,13 @@ body {
 border: 1px solid black !important ; /* added 1.25.2017 */
 }
 
+/* 1.25.2017 */
 .site-header {
 background-color: white;
+color: black;
+}
+
+h1 site-title {
 color: black;
 }
 
