@@ -574,3 +574,9 @@ font-weight: bold;
 border-bottom: 1px solid black;
 }
 
+h2 .site-description {
+font-weight: bold;
+font-size: 24px;
+margin-top: 15px;
+}
+
