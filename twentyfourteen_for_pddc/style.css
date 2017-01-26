@@ -82,9 +82,13 @@ margin-bottom: 20px;
 background-color: white;
 }
 
-
+/* added 1.25.2017 */
 h1 .entry-content {
 font-size: 26px;
+}
+/* testing 1-2-3 */
+#secondary { 
+background: #dcadc5; 
 }
 
 .site-info a:link {
