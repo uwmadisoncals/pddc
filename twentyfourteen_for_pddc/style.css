@@ -61,7 +61,7 @@ color: black; /* added 1.25.2017 */
 .widget-title {
 text-transform: none !important;
 border-top: 1px solid !important; /* added 1.25.2017 */
-font-size: large;
+font-size: 18px;
 line-height: 1.4;
 }
 
@@ -80,6 +80,11 @@ margin-bottom: 20px;
 /* footer - copyright and other info */
 .site-info {
 background-color: white;
+}
+
+
+h1 .entry-content {
+font-size: 26px;
 }
 
 .site-info a:link {
