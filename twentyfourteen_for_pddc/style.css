@@ -71,6 +71,7 @@ font-size: 1.1em;
 
 .widget {
 margin-bottom: 20px;
+border-top: 1px solid black; /* added 1.25.2017 */
 }
 
 #category-posts-3.widget ul .cat-post-item {
@@ -103,7 +104,8 @@ text-transform: none;
 }
 
 .site-description {
-color: white !important;
+/* color: white !important; commented out 1.25.2017 */
+color: blackl
 font-size: 11px;
 margin-top: .25em;
 }
