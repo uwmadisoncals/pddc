@@ -51,6 +51,16 @@ font-size: 11px;
 margin-top: .25em;
 }
 
+/* Right Sidebar */
+
+#content-sidebar {
+color: black; /* added 1.25.2017 */
+}
+
+#content-sidebar widget {
+border: 1px solid black; /* added 1.25.2017 */
+}
+
 /* footer - copyright and other info */
 .site-info {
 background-color: white;
