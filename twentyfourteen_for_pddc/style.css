@@ -18,6 +18,9 @@ Version:        0.1.0
 
 body {
 /* background-color: #679966 !important; commented out 1.25.2017 */
+}
+
+#page {
 border: 1px solid black !important ; /* added 1.25.2017 */
 }
 
