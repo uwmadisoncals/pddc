@@ -57,8 +57,29 @@ margin-top: .25em;
 color: black; /* added 1.25.2017 */
 }
 
-.widget .cat-post-widget {
-border: 1px solid black; /* added 1.25.2017 */
+/* added 1/13/2017 */
+.widget-title {
+text-transform: none !important;
+}
+
+/* Blog Widget */
+#category-posts-2.widget {
+border-top: 1pz solid black;
+}
+
+/* Fact Sheet Widget */
+#category-posts-3.widget {
+border-top: 1pz solid black;
+}
+
+/* Monthly Events Widget */
+#text-10.widget {
+border-top: 1pz solid black;
+}
+
+/* Twitter Widget */
+#twiget-widget-2.widget {
+border-top: 1pz solid black;
 }
 
 /* footer - copyright and other info */
