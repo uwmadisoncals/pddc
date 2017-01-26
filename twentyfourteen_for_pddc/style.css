@@ -18,11 +18,12 @@ Version:        0.1.0
 
 body {
 /* background-color: #679966 !important; commented out 1.25.2017 */
+padding-top: 5px;  /* added 1.26.2017 */
 }
 
 #page {
 border: 1px solid black !important ; /* added 1.25.2017 */
-padding-top: 5px;  /* added 1.26.2017 */
+
 }
 
 /* masthead */
@@ -568,5 +569,8 @@ font-weight: bold;
 			color: #313131;
 		}
 
-
+/* add border to bottom */
+#masthead {
+border-bottom: 1px solid black;
+}
 
