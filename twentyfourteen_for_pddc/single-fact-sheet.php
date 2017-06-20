@@ -166,7 +166,7 @@ while ( have_posts() ) : the_post(); ?>
 			}
 ?>	
 
-<p>A complete inventory of University of Wisconsin Garden Facts is available at the University of Wisconsin-Extension Plant Disease Diagnostics Clinic website:  <a href="http://pddc.wisc.edu">http://pddc.wisc.edu</a>.</p>
+<p>A complete inventory of University of Wisconsin Garden Facts is available at the University of Wisconsin-Madison/Extension Plant Disease Diagnostics Clinic website:  <a href="http://pddc.wisc.edu">http://pddc.wisc.edu</a>.</p>
 
 </div>
 
