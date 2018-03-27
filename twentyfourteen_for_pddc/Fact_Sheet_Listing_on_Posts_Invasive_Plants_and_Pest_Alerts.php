@@ -34,7 +34,7 @@ get_header();
 <br />
 <div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Fact Sheet Listing - Invasive Plants</div>	
 
-<?php include 'includes/FactSheetDisplayCode.php'; ?>
+<?php include 'includes/FactSheetDisplayCodeShortened.php'; ?>
 
 <?php 
 // Reset Query
@@ -44,19 +44,14 @@ wp_reset_query();
 <?php 
 query_posts(array('orderby' => 'title', 'cat' => 210, 'order' => 'ASC', 'showposts' => -1));
 ?>
-
-<br />
 <div style="font-size: 24px; font-family: Verdana; font-weight: bold;">Fact Sheet Listing - Pest Alerts</div>	
 
-<?php include 'includes/FactSheetDisplayCode.php'; ?>
+<?php include 'includes/FactSheetDisplayCodeShortened.php'; ?>
 
 <?php 
 // Reset Query
 wp_reset_query();
 ?>
-
-
-
 
 <?php /* END - add custom code */ ?>
 		</div><!-- #entry-content -->
